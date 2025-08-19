@@ -1,7 +1,7 @@
 # 📑 Django-based PDF Tools  
 
 A modern, lightweight, and secure web app built with **Django + Bootstrap** to manage and convert PDFs with ease.  
-All tools run locally in your browser — **no file storage on the server**, ensuring privacy and security.  
+All tools run locally in your browser  **no file storage on the server**, ensuring privacy and security.  
 
 ---
 
