@@ -1,0 +1,11 @@
+{% extends 'tools/base.html' %}
+{% block content %}
+<h2 class="mb-3">Extract Images from PDF</h2>
+<form method="post" enctype="multipart/form-data" class="card p-4">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button class="btn btn-primary" type="submit">Extract</button>
+  <a class="btn btn-outline-light ms-2" href="/">Back</a>
+</form>
+<p class="text-secondary mt-2">Embedded images (original formats) will be zipped for download.</p>
+{% endblock %}
